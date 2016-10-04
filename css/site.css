@@ -1,0 +1,76 @@
+body {
+	color: #ccc;
+	background-color: #000;
+	font: 18pt Monospace;
+}
+
+#container {
+	text-align: center;
+	margin: 1em 0;
+}
+
+.memory-grid {
+	margin: 0 auto;
+	display: inline-block;
+}
+
+.memory-row {
+	display: block;
+}
+
+.memory-cell {
+	min-width: .5em;
+	width: 4em;
+	height: 4em;
+	min-height: .5em;
+	display: inline-block;
+	border: 1px solid #aaa;
+	margin: 0 0;
+	text-align: center;
+	vertical-align: middle;
+}
+
+.active {
+	background-color: #4f4f4f;
+}
+
+.correct {
+	background-color: rgb(43, 86, 21);
+}
+
+.incorrect {
+	background-color: rgb(145, 24, 24);
+}
+
+.message-box {
+	margin: .25em 0;
+	display: inline-block;
+}
+
+.btn {
+	background: #3498db;
+	background-image: -webkit-linear-gradient(top, #3498db, #2980b9);
+	background-image: -moz-linear-gradient(top, #3498db, #2980b9);
+	background-image: -ms-linear-gradient(top, #3498db, #2980b9);
+	background-image: -o-linear-gradient(top, #3498db, #2980b9);
+	background-image: linear-gradient(to bottom, #3498db, #2980b9);
+	-webkit-border-radius: 4;
+	-moz-border-radius: 4;
+	border-radius: 4px;
+	color: #ffffff;
+	font-size: 17px;
+	padding: 5px 10px;
+	text-decoration: none;
+	display: inline-block;
+   vertical-align: top;
+}
+
+.btn:hover {
+	background: #3cb0fd;
+	background-image: -webkit-linear-gradient(top, #3cb0fd, #3498db);
+	background-image: -moz-linear-gradient(top, #3cb0fd, #3498db);
+	background-image: -ms-linear-gradient(top, #3cb0fd, #3498db);
+	background-image: -o-linear-gradient(top, #3cb0fd, #3498db);
+	background-image: linear-gradient(to bottom, #3cb0fd, #3498db);
+	text-decoration: none;
+}
